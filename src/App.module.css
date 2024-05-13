@@ -3,7 +3,7 @@
   width: 100vw;
   background-color: #E4DEF0;
   display: flex;
-  /* padding-top: 3% ; */
+  /* justify-content: space-evenly; */
 }
 .section1{
   width: 40%;
