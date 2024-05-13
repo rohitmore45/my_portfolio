@@ -14,13 +14,12 @@
 }
 .section2{
   width: 60%;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 @media (max-width:600px) {
   .main{
     min-height: 100vh;
     display: block;
-    /* padding-top: 3% ; */
   }
 .section1{
   width: 100%;

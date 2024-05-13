@@ -80,7 +80,9 @@ export default function MyDetails() {
         </div>
       </div>
       <div className={`${styles.downloadBtn}`}>
-        <a href=""><i class="fa-solid fa-download fa-lg"></i> Download CV</a>
+        <a href="">
+          <i className="fa-solid fa-download fa-lg"></i> Download CV
+        </a>
       </div>
     </div>
   );

@@ -1,0 +1,35 @@
+.menuContainer {
+  height: 90px;
+  width: 450px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuItem {
+  padding: 15px;
+  text-align: center;
+  border-radius: 6px;
+  background: #f4f7f6;
+  font-size: 12px;
+  cursor: pointer;
+}
+.menuItem span i {
+  margin-bottom: 10px;
+}
+
+@media (max-width:600px) {
+  .menuContainer {
+    height: 60px;
+    width: 95%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menuItem {
+    padding: 5px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+}
