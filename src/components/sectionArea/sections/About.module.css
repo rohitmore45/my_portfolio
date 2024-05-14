@@ -17,6 +17,7 @@
   margin: 15px 0;
   color: #797d7d;
   font-size: 16px;
+  line-height: 22px;
 }
 .mainContainer section p::first-letter {
   margin-left: 30px;
@@ -33,7 +34,7 @@
   background-color: #fff3f5;
   display: flex;
   justify-content: space-evenly;
-  align-items:flex-start;
+  align-items: flex-start;
   gap: 20px;
 }
 .aboutBox1 h5,
@@ -53,4 +54,50 @@
 .boxContainer {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    height: 70vh;
+    width: 94%;
+    margin: auto;
+    padding: 0px;
+    overflow-y: scroll;
+  }
+  .mainContainer section {
+    padding: 20px;
+  }
+  .mainContainer section h4 {
+    margin: 10px 0;
+  }
+  .mainContainer section p {
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .boxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .aboutBox1,
+  .aboutBox2 {
+    width: 90%;
+    height: 20%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .aboutBox1 h5,
+  .aboutBox2 h5 {
+    margin-bottom: 2px;
+    font-size: 15px;
+  }
+
+  .aboutBox1 div,
+  .aboutBox2 div {
+    font-size: 13px;
+    color: rgb(63, 61, 61);
+    line-height: 16.5px;
+  }
 }
