@@ -1,0 +1,150 @@
+.mainContainer {
+  height: 75vh;
+  width: 90%;
+  margin-top: 3%;
+  border-radius: 15px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.mainContainer::-webkit-scrollbar {
+  width: 0;
+}
+.mainContainer section {
+  padding: 30px;
+}
+.eduContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.boxContainer1 {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.eduBox1,
+.eduBox2,
+.eduBox3,
+.eduBox4 {
+  width: 320px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: #fff3f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.eduBox2 {
+  background-color: #eef4fb;
+}
+.eduBox3 {
+  background-color: #eef4fb;
+}
+
+.eduBox1 p,
+.eduBox2 p,
+.eduBox3 p,
+.eduBox4 p {
+  font-size: 15px;
+  color: rgb(104, 103, 103);
+}
+.eduBox1 div,
+.eduBox2 div,
+.eduBox3 div,
+.eduBox4 div {
+  font-size: 16.5px;
+}
+
+.skillContainer {
+  width: 100%;
+  height: 500px;
+  background-color: #f9fbfa;
+  display: flex;
+}
+.skillBox {
+  width: 50%;
+  height: 100%;
+}
+.knowledgeBox {
+  width: 50%;
+  height: 100%;
+}
+.skillBox p,
+.knowledgeBox p {
+  margin-top: 15px;
+  padding: 5px 25px;
+  font-size: 25px;
+}
+
+.nameBox div {
+  display: flex;
+  justify-content: space-between;
+}
+.nameBox p{
+  font-size: 16px;
+  color: rgb(136, 136, 136);
+}
+.progressBarContainer {
+  width: 100%;
+  height: 6.5px;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.progressBarContainer div {
+  height: 100%;
+  border-radius: 10px;
+}
+.progressBar1 {
+  background-color: #d27a7a;
+  width: 80%;
+}
+.progressBar2 {
+  width: 60%;
+  background-color: #9079c4;
+}
+.progressBar3 {
+  width: 60%;
+  background-color: #5985c3;
+}
+.progressBar4 {
+  width: 70%;
+  background-color: #a26cb5;
+}
+.progressBar5 {
+  width: 50%;
+  background-color: #f7959a;
+}
+.progressBar6 {
+  width: 60%;
+  background-color: rgb(64, 146, 51);
+}
+.nameBoxContainer {
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.knowledgeBox section{
+  width: 80%;
+  /* background-color: red; */
+}
+.softSkillContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.softSkillContainer p{
+  font-size: 16px;
+  color: rgb(78, 76, 76);
+  padding: 8px 25px;
+  border-radius: 5px;
+  background-color: #eaeeee;
+}
